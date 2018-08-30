@@ -1,0 +1,15 @@
+[
+{
+"name" : "Devender",
+"dept" : "SAP",
+"role" : "Trainer"
+},{
+"name" : "Surender",
+"dept" : "Marketing",
+"role" : "Ads"
+},{
+"name" : "Mahendar",
+"dept" : "Java",
+"role" : "Developer"
+}
+]

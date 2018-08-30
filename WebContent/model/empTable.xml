@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <dept>SAP</dept>
+      <name>Devender</name>
+      <role>Trainer</role>
+   </element>
+   <element>
+      <dept>Marketing</dept>
+      <name>Surender</name>
+      <role>Ads</role>
+   </element>
+   <element>
+      <dept>Java</dept>
+      <name>Mahendar</name>
+      <role>Developer</role>
+   </element>
+</root>

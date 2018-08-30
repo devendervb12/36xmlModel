@@ -1,0 +1,54 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zemptable.EMPTABLE" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	          <Table id="idTable">
+	             <columns>
+	                <Column>
+	                   <header>
+	                      <Text text="Name"/>
+	                   </header>
+	                </Column>
+	                <Column>
+	                   <header>
+	                      <Text text="Department"/>
+	                   </header>
+	                </Column>
+	                <Column>
+	                   <header>
+	                      <Text text="Role"/>
+	                   </header>
+	                </Column>
+	             </columns>
+	             
+	          </Table>
+	          
+	           <Table items="{m2>/element}">
+	             <columns>
+	                <Column>
+	                   <header>
+	                      <Text text="Name"/>
+	                   </header>
+	                </Column>
+	                <Column>
+	                   <header>
+	                      <Text text="Department"/>
+	                   </header>
+	                </Column>
+	                <Column>
+	                   <header>
+	                      <Text text="Role"/>
+	                   </header>
+	                </Column>
+	             </columns>
+	             <items>
+	             <ColumnListItem>
+	                <Text text="{m2>name}"/>
+	                <Text text="{m2>dept}"/>
+	                <Text text="{m2>role}"/>
+	              </ColumnListItem>  
+	             </items>
+	          </Table>
+		</content>
+	</Page>
+</core:View>
