@@ -6,24 +6,24 @@
 	             <columns>
 	                <Column>
 	                   <header>
-	                      <Text text="Name"/>
+	                      <Text text="{i18n>name}"/>
 	                   </header>
 	                </Column>
 	                <Column>
 	                   <header>
-	                      <Text text="Department"/>
+	                      <Text text="{i18n>dept}"/>
 	                   </header>
 	                </Column>
 	                <Column>
 	                   <header>
-	                      <Text text="Role"/>
+	                      <Text text="{i18n>role}"/>
 	                   </header>
 	                </Column>
 	             </columns>
 	             
 	          </Table>
 	          
-	           <Table items="{m2>/element}">
+	          <!--  <Table items="{m2>/element}">
 	             <columns>
 	                <Column>
 	                   <header>
@@ -48,7 +48,7 @@
 	                <Text text="{m2>role}"/>
 	              </ColumnListItem>  
 	             </items>
-	          </Table>
+	          </Table> -->
 		</content>
 	</Page>
 </core:View>

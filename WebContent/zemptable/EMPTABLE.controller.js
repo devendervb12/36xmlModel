@@ -27,6 +27,14 @@ sap.ui.controller("zemptable.EMPTABLE", {
 	oModel2.loadData("model/empTable.xml");
 	
 	this.getView().setModel(oModel2,"m2");
+	
+	sap.ui.localResources("i18n");
+	var orModel = new sap.ui.model.resource.ResourceModel({
+		bundleName : "i18n.mySource"
+	});
+	
+	this.getView().setModel(orModel, "i18n");
+	
 	},
 
 /**
